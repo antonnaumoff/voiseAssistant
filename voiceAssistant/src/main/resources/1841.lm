@@ -1,0 +1,77 @@
+Language model created by QuickLM on Thu Jun  8 16:39:42 EDT 2023
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 13 sentences and 15 words
+
+\data\
+ngram 1=15
+ngram 2=26
+ngram 3=13
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.8921 BLENDERS -0.2218
+-1.8921 BOSCH -0.2218
+-1.8921 BRAUN -0.2218
+-1.8921 CHEAP -0.2218
+-1.8921 ELECTROLUX -0.2218
+-1.8921 EXPENSIVE -0.2218
+-1.8921 JARVIS -0.2218
+-1.8921 MIXERS -0.2218
+-1.8921 NOVELTY -0.2218
+-1.8921 PHLIPS -0.2218
+-1.8921 RANK -0.2218
+-1.8921 TEFAL -0.2218
+-1.8921 TOASTERS -0.2218
+
+\2-grams:
+-1.4150 <s> BLENDERS 0.0000
+-1.4150 <s> BOSCH 0.0000
+-1.4150 <s> BRAUN 0.0000
+-1.4150 <s> CHEAP 0.0000
+-1.4150 <s> ELECTROLUX 0.0000
+-1.4150 <s> EXPENSIVE 0.0000
+-1.4150 <s> JARVIS 0.0000
+-1.4150 <s> MIXERS 0.0000
+-1.4150 <s> NOVELTY 0.0000
+-1.4150 <s> PHLIPS 0.0000
+-1.4150 <s> RANK 0.0000
+-1.4150 <s> TEFAL 0.0000
+-1.4150 <s> TOASTERS 0.0000
+-0.3010 BLENDERS </s> -0.3010
+-0.3010 BOSCH </s> -0.3010
+-0.3010 BRAUN </s> -0.3010
+-0.3010 CHEAP </s> -0.3010
+-0.3010 ELECTROLUX </s> -0.3010
+-0.3010 EXPENSIVE </s> -0.3010
+-0.3010 JARVIS </s> -0.3010
+-0.3010 MIXERS </s> -0.3010
+-0.3010 NOVELTY </s> -0.3010
+-0.3010 PHLIPS </s> -0.3010
+-0.3010 RANK </s> -0.3010
+-0.3010 TEFAL </s> -0.3010
+-0.3010 TOASTERS </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BLENDERS </s>
+-0.3010 <s> BOSCH </s>
+-0.3010 <s> BRAUN </s>
+-0.3010 <s> CHEAP </s>
+-0.3010 <s> ELECTROLUX </s>
+-0.3010 <s> EXPENSIVE </s>
+-0.3010 <s> JARVIS </s>
+-0.3010 <s> MIXERS </s>
+-0.3010 <s> NOVELTY </s>
+-0.3010 <s> PHLIPS </s>
+-0.3010 <s> RANK </s>
+-0.3010 <s> TEFAL </s>
+-0.3010 <s> TOASTERS </s>
+
+\end\
